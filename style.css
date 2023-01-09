@@ -1,0 +1,88 @@
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+html,
+main {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.content-body-login {
+    display: grid;
+    grid-template-columns: 600px 600px;
+}
+
+.content-img-login {
+    background-color: #F7FAFC;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.content-login {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.titles-login {
+    margin: 10px;
+}
+
+.label-login {
+    margin: 5px;
+}
+
+.input-login {
+    width: 350px;
+    height: 40px;
+    border: 1px solid #dddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.content-forgot-password {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.content-button-login,
+.content-button-login-google {
+    width: 350px;
+    height: 40px;
+    margin: 10px;
+}
+
+.content-button-login {
+    background-color: #04c35c;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.content-button-login-google {
+    background-color: #1a202c;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.img-icon-google {
+    margin: 5px;
+}
+
+.content-register {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
